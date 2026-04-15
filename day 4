@@ -1,0 +1,9 @@
+day 4 txt
+ip adress stands for internet protocal adress its a unique identification number given to each ubuntu servers or instance individually for 
+location tracking data tracking managing etc it is of two types public ip and private ip
+public ip works to make connections on the internet
+private ip is used to make connections with in the network or selected networks
+
+DNS domain name system which isthe service provided by the aws that helps to convert the human redable domain names into ip adresses
+  
+port numbers are the logical numbers in the specific order which helps to direct meachine to the required servers by converting names into ips.
