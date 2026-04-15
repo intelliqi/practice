@@ -1,0 +1,5 @@
+installation of nginx on ubuntu server by connecting to ec2 the installation was easy done with commands but the problem i faced with security group inbound rules 
+  so i have to edit the rules then after editing the page of nginx got opened by using public ip
+  today i have learned to edit the content on the web page of ingnix
+  to do this i used both sudo vim command and sudo nano command i even used sudo with cat command & learned my mistake that /var/www/html/ cannot be edited
+  if u logged in as user not as a owner
