@@ -1,0 +1,6 @@
+todays it was about launching a new ec2 instance installing docker on it to run nginx container
+  using port 80 and later verying it for successful confirmation
+  editing the information inside container by staying outside the container so that when the nginx page opened by using 
+  is opened using port number it should show the message/content that u have stored
+  during the process i faced a problem that is even after proper editing the page is not displaying
+  my content & this caused to the browser cache issue and this solved using ctrl+shift+r (hard refresh)
