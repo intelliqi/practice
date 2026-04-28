@@ -3,7 +3,7 @@ i observed that though used same image multiple times, each time we use ,new con
   container
   every container works individually on the assigned port numbers 
   the content on each nginx web page can also be customised individually as our wish
-  learnt that containers customisation is only possible by volumes r by creating docker image from docker file (docker file, index.html file inside a
+  learnt that containers customisation is possible by 3 ways i.e by volumes r by creating docker image from docker file (docker file, index.html file inside a
   seperate directory ) r else if u want to edit from outside the container u can use the command
   docker exec -it container_id process_name 
   cd /usr/share/nginx/html/
