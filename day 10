@@ -1,0 +1,11 @@
+created a docker image from docker file
+  first i have launched an ubuntu linux server connected to it 
+  created a directory command: mkdir myapp
+    cd myapp
+    created files (dockerfile, index.html) using touch command
+    placed the content that i want display on nginx page in the file index.html
+    followed by the instructions in the docker file for successful installation and execution
+    executed docker build command to build docker image from docker file in the current directory docker build -t mynginx .
+    then the last step executed docker run command along with port mapping
+    docker run -d -p 80:80 mynginx
+    checked with public ip and it was successful
