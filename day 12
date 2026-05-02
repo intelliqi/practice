@@ -1,0 +1,11 @@
+docker compose is the tool by docker thats helps to run multiple containers at a 
+  time in simple easy & less no.of steps
+  docker compose helps to maintain control over huge data with less efforts
+  docker run command helps to run only one image at a time but where as docker compose up command 
+  helps to run more images i.e more no.of containers run at a time
+  in docker run command more no.of times the commands should be used repeatedly but in docker 
+  compose the usage of commands is every less & there is no repetation 
+  docker-compose up
+  docker-compose down
+  nano docker-compose.yml
+  sudo apt install docker-compose -y
