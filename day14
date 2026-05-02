@@ -9,4 +9,5 @@ create a app.txt file in github repository & add some content
 cat app.txt , save
   click on build now after completion of process go to console output check weather the process is
   successful and then content in ur file had displayed or not
+understood that every time when the build was executed jenkins clones the git repo freshly thats the reason for the changes in the content displaying
   
