@@ -3,7 +3,7 @@ KUBERNATES - kubectl
   
 docker kubectl differ
   docker is a docker container orchistration tool which means the docker commands  only works when the underlying containers are all docker containers but kubctl can work 
-  on any kind of containers and it can manage a huge no. of containers at a time 
+  on any kind of containers and it can manage a huge no. of containers at a time by load balancing,scaling,replicaset
 
 KIND installation :
 
