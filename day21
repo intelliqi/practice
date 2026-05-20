@@ -1,0 +1,13 @@
+DEPLOYMENT : when the deployment command is executed it creates a deployment which automatically creates replica set ,replica set creates pods,pods downloads & 
+runs nginx/given images automatically
+  
+POD : it is a layer of  abstraction on the top of a container 
+     k8s communicates with the pod it does not communicate with the container directly this is the reason even if the underlying containers r not docker the commands
+     get executed successfully
+  
+SERVICE : service is a object that plays a key role in maintaining connection with pods in case of restart ,crash of public ip, the ip adress address gets changed when
+          ever it was restarted again in such case service object ensures to maintain connection with  pod without experinecing downtime to costumers by generating the 
+          instance with the same old ip address and it also ensures load balancing ,traffic distribution by creating n no.of pods as a service
+  
+SCALING : scaling  maintains the desired no.of replicas meet the actual no.of replicas always and it ensures to decrease r  increase the no.of replicas depending
+          on the load or traffic distributed to a server      
