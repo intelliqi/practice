@@ -1,0 +1,11 @@
+YAML is preferred most becoz its simple and easy to understand 
+  it can be reused again & again
+ tools  can easily read YAML files and automatically create resources instead of using repetative commands its one time creation
+  used to write infrastructure as code
+  easy for humans to read
+  version control friendly
+
+  deployment.yaml is a yaml file containing the infrastructure that is required for a particluar deployment to build
+so when it is executed the image gets downloaded and the container runs as per the requirements
+
+  when replicas are changed the no.of pods increses or decreases as per the updation number
