@@ -1,0 +1,7 @@
+service.yaml contains the code according to which the image in deployment.yaml should run 
+selector in service.yaml is used to find and connect the correct pods to the service
+Labels matter the most becoz depending on the labels the service  gets connected to the desired pods
+  if labels and selector match service sends traffic to those pods
+  service sends traffic to those matched pods only
+when scaling is done automatically the pods got increased along with that all the pods got exposed to the service
+  
