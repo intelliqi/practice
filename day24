@@ -1,0 +1,12 @@
+ConfigMap is a concept from kubernetes used to store configuration data seperately from application code which stores the data like variables, environment, port,files
+it is used becoz the code keeps clean and can be reused
+seperation b/w app. code and configuration data
+makes it easy to change configs without rebuilding containers
+helps manage different environments
+difference b/w config & app
+         config                                                        application
+ contains the settings r data used by the program/app         contains the actual code of the app.
+  it can be changed frequently                                cannot be changed frequently
+  kept outside using ConfigMaps r secretes                    built into the container/image                              
+  contains coustamizable values                                contains bussiness logics
+  ex : variables,port                                             ex : java,python
