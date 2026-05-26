@@ -1,0 +1,5 @@
+logs command is used to view the output logs of containers running inside pods.
+describe pod shows detailed information about a specific pod in k8s. it provides much more than just logs.
+when a pod is deleted it automatically generates a new pod to maintain the same count of actual replicas and desired replicas 
+  
+  
