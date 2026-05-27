@@ -1,0 +1,6 @@
+namespace is a partition in the memory r hardware of a system or cluster 
+The advantage of namespace is that segregation of data can be made & collision of pods can be avoided
+the default namespace is created by k8s automatically for general usage of small practice setups it contains pods,deployments,services , 
+if u dont specify any namespace it considers to be default
+the custom namespace should be created manually by user it can be given any name, used for seperating app/resources for better organization and isolation of pods
+by team/project
