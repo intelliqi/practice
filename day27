@@ -1,0 +1,25 @@
+in k8s namespace inside yaml that is in nano deployment.yaml is useful becoz it tells k8s where the resource should be created
+it is useful : 1) seperates environments
+               2) better organization
+               3) access control
+               4) resource control
+               5) easier commands
+if u donot mention namespace k8s automatically creates it in the default namespace
+
+COMMAND BASED DEPLOYMENT
+  quick & simple 
+  good for practice & testing
+  no YAML file needed
+  hard to remember large configurations
+  difficult to reuse later
+
+YAML  BASED DEPLOYMENT
+  Reusable
+  easy to modify
+  used in real projects
+  supports complex configuration
+  can be stored in git
+  better for automation & devops
+
+  i observed that when i mentioned the namespace in metadata of deployment.yaml file after creating the namespace.yaml file then when i execute the deployment.yaml
+  file then the resource creates in a seperate environment with name mentioned as in the metadata (namespace) of deployment.yaml
