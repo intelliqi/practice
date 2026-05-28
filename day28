@@ -1,0 +1,16 @@
+rolling updates means updating the images to the newer version without experiencing downtime to the customers
+in a rolling update, old pods r replaced with new pods gradually,without stopping the whole app.
+  step by step
+  suppose when ur deployment has 3 pods
+  created one new pod with the new version
+  wait until the new pod becomes running
+  deletes one old pod
+  again creates another new pod
+  repeats the process until all old pods r replaced
+  so at every moment some pods stay available to users
+
+what rollback does
+  no full downtime
+  app stays available
+  safer upgrading/updates
+  easy rollback if new pods fail
