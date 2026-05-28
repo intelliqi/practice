@@ -1,0 +1,16 @@
+cluster-info shows the info about control plane & DNS service
+  
+node describe command shows all the data like capacity, allocatable resources,conditions etc.. regarding the node which is very useful for calculating resource consumption
+
+resource monitoring matters becoz k8s must know how much CPU and memory are being used by pods & nodes
+without monitoring ,the cluster cannot manage apps properly
+prevents pod crashes by using too much cpu r memory
+helps in scaling
+detects overloaded nodes
+monitoring helps provide better performance
+saves resources
+
+my ec2 faced issues becoz i was running docker containers,kind clusters,pods,nodes,yaml files on the instance so by the usage of these,memory consumption takes place
+but here the memory of my instance was small so by this reason i faced issues 
+
+metric servers r the servers which allows the resource usage in k8s like cpu,memory
