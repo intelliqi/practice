@@ -1,0 +1,11 @@
+in k8s , secretes are objects used to store sensitive information securely instead of writing them directly inside application code r yaml files.
+
+              configmap                                                                  secret
+
+  stores normal configuration data                                        stores sensitive data
+  ex app name,port no.                                                     ex password,tokens
+  data stored as plain text by default                                     data stored in base64 encoded form
+  less secure                                                              more secure than configmap
+  used for non sensitive info                                              used for sensitive info
+
+  in k8s encoding is used to convert data from one format into another format for safe data transfer,store binary data as text,standardized communication
