@@ -1,3 +1,10 @@
+Docker : it is a container orchistration tool 
+         it is a platform that lets you package an application and its dependencies into a contaier so that the app. can run in the same way on any computer
+Image : it is a combination of binaries and libraries
+        or a blueprint r template for your app.
+Container : when the image is installed and comes into running state it is called container or a running instance of an image
+Dockerfile : a txt file with instr. to build an image
+
 today it was about docker and its commands
 installed docker through get.docker.com & also using sudo apt-get install -y docker.io command
   after that using docker run command installed nginx
