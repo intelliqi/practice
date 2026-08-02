@@ -1,8 +1,16 @@
+                   DOCKER                                                              K8S
+
+     - Builds containers                                                 - manages containers
+    - runs containers                                                   - scales automatically
+     - packages + dependencies                                          - handles failures
+     - works on one meachine                                            - runs across  meachines
+--> docker creates containers ,k8s manages them
+
 KUBERNATES - kubectl
   its a container orchistration tool using which all the underlying different types of containers can be managed
   
 docker kubectl differ
-  docker is a docker container orchistration tool which means the docker commands  only works when the underlying containers are all docker containers but kubctl can work 
+  docker is a docker container orchistration tool which means the commands only works when the underlying containers are all docker containers but kubctl can work 
   on any kind of containers and it can manage a huge no. of containers at a time by load balancing,scaling,replicaset
 
 KIND installation :
